@@ -1,0 +1,34 @@
+.photo__bloks {
+  width: 1920px;
+  grid-template-rows: repeat(2, 21vh);
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+  padding: 150px;
+  display: grid;
+}
+
+.one {
+  background-color: #0ff;
+  grid-column: 1 / span 2;
+}
+
+.two {
+  background-color: bisque;
+  grid-row: span 2;
+}
+
+.five {
+  background-color: #000;
+  grid-column: 1 / span 2;
+}
+
+.six {
+  background-color: green;
+  grid-column: span 2;
+}
+
+.three, .four {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=index.795b33ca.css.map */

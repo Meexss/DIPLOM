@@ -3653,3 +3653,7 @@ node_modules/yaml/types/omap.js
 node_modules/yaml/types/pairs.js
 node_modules/yaml/types/set.js
 node_modules/yaml/types/timestamp.js
+node_modules/@parcel/transformer-sass/LICENSE
+node_modules/@parcel/transformer-sass/package.json
+node_modules/@parcel/transformer-sass/lib/SassTransformer.js
+node_modules/@parcel/transformer-sass/src/SassTransformer.js
