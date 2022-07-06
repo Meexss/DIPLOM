@@ -1,0 +1,67 @@
+@import "./config.scss";
+
+.value{
+   margin-top: 150px;
+   background-image: url("/src/img/Rectangle\ 22.png");
+   background-size: 100%;
+   background-position: center;
+   padding-bottom: 99px;
+   .value__title {
+      text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 47px;
+      font-style: $font-one;
+      margin-top: 94px;
+      margin-bottom: 100px;
+   }
+   .value__blok {
+      border-radius: 15px;
+      padding-bottom: 167px;
+      text-align: center;
+      background-color: $color-one;
+      width: 1720px;
+      border-radius: 15px;
+      margin-left: 100px;
+      display: flex;
+      justify-content: center;
+      .value__blok-calc {
+         margin-top: 168px;
+         background-color: $color-four;
+         width: 840px;
+         .value__blok-calc__title {
+            font-family: $font-one;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            margin-top: 57px;
+
+            padding-bottom: 47px;
+            border-bottom: 3px dashed #000000;
+            
+         }
+         .value__blok-calc__sum {
+            margin-top: 54px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            margin-bottom: 37px;
+         }
+         .value__blok-calc__btn {
+            width: 297px;
+            height: 64px;
+            margin-bottom: 32px;
+         }
+         .value__blok-calc__text {
+            width: 461px;
+            margin-bottom: 58px;
+            margin-left: 188px;
+         }
+      }
+   }
+
+}
+

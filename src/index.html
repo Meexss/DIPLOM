@@ -6,10 +6,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>diplom</title>
    <link rel="stylesheet" href="./style/style.scss">
-   <link rel="stylesheet" href="./style/photo.scss">
 </head>
 <body>
-   <Header>
+   <header>
       <div class="head">
          <a href="" class="head__link"><img src="./img/logo (1).png" alt="" class="head__logo"></a>
          <ul class="head__list">
@@ -20,14 +19,14 @@
          </ul>
          <p class="head__info">Работаем без выходных<br>Пн-Вс, с 9:00 до 21:00</p>
          <ul class="head__tel">
-            <li class="head__tel_link"><a href="" class="head__tel-number">+7(495)308-48-45</a></li>
-            <li class="head__tel_link"><a href="" class="head__tel-number">+7(965)169-20-00</a></li>
+            <li class="head__tel_link"><a href="" class="head__tel-number"><span class="text-yellow">+7(495)</span>308-48-45</a></li>
+            <li class="head__tel_link"><a href="" class="head__tel-number"><span class="text-yellow">+7(965)</span>169-20-00</a></li>
          </ul>
          <button class="head__btn btn-1">Оставить заявку</button>
       </div>
       <div class="midle">
          <div class="midle__left">
-            <h1 class="midle__left-title">Профессиональное бурение скважин на воду в Домодедовском районе</h1>
+            <h1 class="midle__left-title">Профессиональное бурение скважин <span class="text-blue">на воду</span> в Домодедовском районе</h1>
             <div class="midle__left-blok">
                <img src="./img/drilling 1.png" alt="" class="midle__left-blok__img">
                <p class="midle__left-blok__text">Весь комплекс работ от бурения до заводения воды в дом</p>
@@ -40,22 +39,29 @@
             <a href="" class="midle__right-link"><img src="./img/image 3.png" alt="" class="midle__right-img"></a>
          </div>
       </div>
-   </Header>
+   </header>
    <main>
       <section class="constr">
-         <p class="consr__info">Глубина залегания водоносного горизонта в Домодедовском районе сильно зависит от населенного пункта, где планируется проводить бурение. Например, в деревне Угрюмово на глубине не более 5 метров залегает известняк, поэтому глубина скважины не будет превышать этого значения. А в поселке Богданиха, чтобы получить собственный источник воды, придётся заглубляться на глубину более 70 метров...</p>
+         <input type="checkbox" class="read-more-state" id="post" />
+         <p class="consr__info">
+            Глубина залегания водоносного горизонта в Домодедовском районе сильно зависит от населенного пункта, где планируется проводить бурение. Например, в деревне Угрюмово на глубине не более 5 метров залегает известняк, поэтому глубина скважины не будет превышать этого значения. А в поселке Богданиха, чтобы получить собственный источник воды, придётся заглубляться на глубину более 70 метров...
+         <span class="read-more-target">
+            Однако в большинстве случаев глубина бурения будет небольшой. Более того, грунтовые воды залегают в Домодедово под неплохим напором и могут подниматься в обсадной трубе до уровня в 2–30 метров от поверхности. При бурении в некоторых населенных пунктах зафиксированы случаи, когда вода изливалась из скважины под собственным давлением.
+            </span>
+         </p>
+         <label for="post" class="read-more-trigger"></label>
          <div class="constr__bloks">
             <div class="constr__bloks-all">
                <img src="./img/image 8.png" alt="" class="constr__bloks-all__img">
                <h3 class="constr__bloks-all__title">Скважина на песок</h3>
                <p class="constr__bloks-all__text">Производим до глубоких песчаных водоносных напорных слоёв.</p>
-               <span class="constr__bloks-all__info">Преимущества: большой выбор вариантов конструкций, срок эксплуатации. </span>
-               <span class="constr__bloks-all__info">Недостатки: водоносный песок встречается не везде. </span>
+               <span class="constr__bloks-all__info"><b>Преимущества:</b> большой выбор вариантов конструкций, срок эксплуатации. </span>
+               <span class="constr__bloks-all__info"><b>Недостатки:</b> водоносный песок встречается не везде. </span>
                <ul class="constr__bloks-all__list">
                   <li class="constr__bloks-all__list-type">Глубина 40-90 метров</li>
                   <li class="constr__bloks-all__list-type">Дебит 1000-2000 литров/час</li>
                </ul>
-               <span class="constr__bloks-all__price">Цена от 2300 руб/метр</span>
+               <span class="constr__bloks-all__price">Цена от <span class="text-yellow">2300 руб/метр</span></span>
                <button class="constr__bloks-all__btn btn-1">Подробнее</button>
             </div>
             <div class="constr__bloks-all">
@@ -68,8 +74,8 @@
                   <li class="constr__bloks-all__list-type">Глубина 15-50 метров</li>
                   <li class="constr__bloks-all__list-type">Дебит до 2000 литров/час</li>
                </ul>
-               <span class="constr__bloks-all__price">Цена от 2000 руб/метр</span>
-               <button class="constr__bloks-all__btn btn-1">Подробнее</button>
+               <span class="constr__bloks-all__price">Цена от <span class="text-yellow">2000 руб/метр</span></span>
+               <button class="constr__bloks-all__btn more btn-1">Подробнее</button>
             </div>
             <div class="constr__bloks-all">
                <img src="./img/image 8 (2).png" alt="" class="constr__bloks-all__img">
@@ -81,8 +87,8 @@
                   <li class="constr__bloks-all__list-type">Глубина 40-250 метров</li>
                   <li class="constr__bloks-all__list-type">Дебит 2000-3000 литров/час</li>
                </ul>
-               <span class="constr__bloks-all__price">Цена от 2000 руб/метр</span>
-               <button class="constr__bloks-all__btn btn-1">Подробнее</button>
+               <span class="constr__bloks-all__price">Цена от <span class="text-yellow">2000 руб/метр</span></span>
+               <button class="constr__bloks-all__btn more btn-1">Подробнее</button>
             </div>
          </div>
       </section>
@@ -92,38 +98,56 @@
          </div>
          <div class="information__blok">
             <p class="information__blok-title">Работы по устройству скважин желательно проводить 
-               на стадии строительства дома, чтобы выбрать наиболее удобное место расположения и не испортить вид обустроенного участка. Выполнение работ возможно
-               в любое время года, в том числе тзимой.<br><br>На их стоимость оказывает влияние глубина бурения, используемое при обустройстве скважины оборудование, месторасположение участка и сезоннные фаеторы. Наша компания выполняет услуги под ключ и обеспечивает стабильную подачу воды в дом. На все работы даётся гарантия до 12 лет. На оборудование до 3 лет. </p>
+               <b>на стадии строительства</b> дома, чтобы выбрать наиболее удобное место расположения и не испортить вид обустроенного участка. Выполнение работ возможно
+               <b>в любое время года</b>, в том числе тзимой.<br><br>На их стоимость оказывает влияние глубина бурения, используемое при обустройстве скважины оборудование, месторасположение участка и сезоннные фаеторы. Наша компания выполняет услуги <b>под ключ</b> и обеспечивает стабильную подачу воды в дом. На все работы даётся гарантия <b>до 12 лет</b>. На оборудование <b>до 3 лет.</b></p>
             <button class="information__blok-btn btn-2">Оставить заявку</button>
          </div>
       </section>
       <section class="benefit">
-         <h2 class="benefit__title">С нами на 90% выгоднее, чем с конкурентами, потому что:</h2>
+         <h2 class="benefit__title">С нами на <span class="text-yellow">90%</span> выгоднее, чем с конкурентами, потому что:</h2>
          <div class="benefit__blok">
             <div class="benefit__blok-info">
-               <img src="./img/budget (1) 1.png" alt="" class="benefit__blok-info__img">
-               <h3 class="benefit__blok-info__title">Никакой предоплаты</h3>
-               <span class="benefit__blok-info__text">Только фиксированные цены по договору. Работы производим. Оплата по факту.</span>
+               <div class="benefit__blok-info__photo">
+                  <img src="./img/budget (1) 1.png" alt="" class="benefit__blok-info__img">
+               </div>
+               <div class="benefit__blok-info__secondary">
+                  <h3 class="benefit__blok-info__secondary-title">Никакой предоплаты</h3>
+                  <span class="benefit__blok-info__secondary-text">Только фиксированные цены по договору. Работы производим. Оплата по факту.</span>
+               </div>
             </div>
             <div class="benefit__blok-info">
-               <img src="./img/budget (1) 2.png" alt="" class="benefit__blok-info__img">
-               <h3 class="benefit__blok-info__title">Работаем по всей области</h3>
-               <span class="benefit__blok-info__text">Выезжаем в Москву и область. Знаем всю геологию вдоль и поперёк.</span>
+               <div class="benefit__blok-info__photo">
+                  <img src="./img/budget (1) 2.png" alt="" class="benefit__blok-info__img correct">
+               </div>
+               <div class="benefit__blok-info__secondary">
+                  <h3 class="benefit__blok-info__secondary-title">Работаем по всей области</h3>
+                  <span class="benefit__blok-info__secondary-text">Выезжаем в Москву и область. Знаем всю геологию вдоль и поперёк.</span>
+               </div>
             </div>
-            <div class="benefit__blok">
-               <img src="./img/secure-shield 1.png" alt="" class="benefit__blok-info__img">
-               <h3 class="benefit__blok-info__title">Гарантия на скважину</h3>
-               <span class="benefit__blok-info__text">Предоставляем документ, гарантирующий долгосрочность работы.</span>
+            <div class="benefit__blok-info">
+               <div class="benefit__blok-info__photo">
+                  <img src="./img/secure-shield 1.png" alt="" class="benefit__blok-info__img">
+               </div>
+               <div class="benefit__blok-info__secondary">
+                  <h3 class="benefit__blok-info__secondary-title">Гарантия на скважину</h3>
+                  <span class="benefit__blok-info__secondary-text">Предоставляем документ, гарантирующий долгосрочность работы.</span>
+               </div>
             </div>
          </div>
-         <p class="benefit__text">Определим значение некоторых параметров:</p>
-         <ul class="benefit__list">
-            <li class="benefit__list-type">Глубина – расстояние от поверхности земли до водоносного горизонта;</li>
-            <li class="benefit__list-type">Статический уровень. Расстояние от верхнего среза скважины до поверхности воды в обсадной трубе скважины;</li>
-            <li class="benefit__list-type">Динамический уровень. Расстояние от верхнего среза скважины до поверхности воды в случае, когда из гидротехнического сооружения производится откачка воды.</li>
-         </ul>
+         <div class="benefit__list-blok">
+            <p class="benefit__list-blok__text">Определим значение некоторых параметров:</p>
+            <ul class="benefit__list-blok__list">
+               <li class="benefit__list-blok__list-type"><b>Глубина</b> – расстояние от поверхности земли до водоносного горизонта;</li>
+               <li class="benefit__list-blok__list-type"><b>Статический уровень.</b> Расстояние от верхнего среза скважины до поверхности воды в обсадной трубе скважины;</li>
+               <liЮ class="benefit__list-blok__list-type"><b>Динамический уровень.</b> Расстояние от верхнего среза скважины до поверхности воды в случае, когда из гидротехнического сооружения производится откачка воды.</li>
+            </ul>
+            <input type="checkbox" class="read-more-state" id="post-1" />
+            <p class="read-more-target">В таблице указан динамический уровень для случая, когда в течение часа из скважины откачивается до 3 кубометров жидкости.
+               Глубина бурения, статический и динамический уровни воды в этих гидротехнических сооружениях помогают выбрать насосы нужной мощности, а также определить глубину, на которую следует погружать оборудование. Все эти характеристики обычно фиксируются в паспорте, который выписывается на скважину. Получить технические характеристики скважин для населенного пункта Домодедово можно при заказе услуги бурения в нашей компании.</p>
+            <label for="post-1" class="read-more-trigger"></label>
+         </div>
       </section>
-      <section class="value">
+      <section class="value back">
          <h2 class="value__title">Расчет стоимости бурения</h2>
          <div class="value__blok">
             <div class="value__blok-form"></div>
@@ -143,45 +167,45 @@
                <img src="./img/img.png" alt="" class="variation__bloks-info__img">
                <p class="variation__bloks-info__text">Металл 133<br>(резьба)<br>до 3-х м3/час</p>
                <p class="variation__bloks-info__title">Крупногабаритное бурение</p>
-               <span class="variation__bloks-info__price">2700 2800</span>
+               <span class="variation__bloks-info__price"><b>2700</b> <s>2800</s></span>
                <p class="variation__bloks-info__title">Мелкогабаритное бурение</p>
-               <span class="variation__bloks-info__price">2900 3000</span>
+               <span class="variation__bloks-info__price"><b>2900</b> <s>3000</s></span>
                <button class="variation__bloks-info__btn btn-3">Оставить заявку</button>
             </div>
             <div class="variation__bloks-info">
                <img src="./img/image 13.png" alt="" class="variation__bloks-info__img">
                <p class="variation__bloks-info__text">Металл 133<br>+ пластик пищевой<br>(резьба)<br>до 3-х м3/час</p>
                <p class="variation__bloks-info__title">Крупногабаритное бурение</p>
-               <span class="variation__bloks-info__price">2900 3000</span>
+               <span class="variation__bloks-info__price"><b>2900</b> <s>3000</s></span>
                <p class="variation__bloks-info__title">Мелкогабаритное бурение</p>
-               <span class="variation__bloks-info__price">3300 3400</span>
+               <span class="variation__bloks-info__price"><b>3300</b> <s>3400</s></span>
                <button class="variation__bloks-info__btn btn-3">Оставить заявку</button>
             </div>
             <div class="variation__bloks-info">
                <img src="./img/image 14.png" alt="" class="variation__bloks-info__img">
                <p class="variation__bloks-info__text">Металл 159<br>(резьба)<br>до 5-ти м3/час</p>
                <p class="variation__bloks-info__title">Крупногабаритное бурение</p>
-               <span class="variation__bloks-info__price">3200</span>
+               <span class="variation__bloks-info__price"><b>3200</b></span>
                <p class="variation__bloks-info__title">Мелкогабаритное бурение</p>
-               <span class="variation__bloks-info__price">3400</span>
+               <span class="variation__bloks-info__price"><b>3400</b></span>
                <button class="variation__bloks-info__btn btn-3">Оставить заявку</button>
             </div>
             <div class="variation__bloks-info">
                <img src="./img/img (1).png" alt="" class="variation__bloks-info__img">
                <p class="variation__bloks-info__text">Металл 159<br>+ 125 пластик пищевой<br>(резьба)<br>до 5-ти м3/час</p>
                <p class="variation__bloks-info__title">Крупногабаритное бурение</p>
-               <span class="variation__bloks-info__price">3600</span>
+               <span class="variation__bloks-info__price"><b>3600</b></span>
                <p class="variation__bloks-info__title">Мелкогабаритное бурение</p>
-               <span class="variation__bloks-info__price">3700</span>
+               <span class="variation__bloks-info__price"><b>3700</b></span>
                <button class="variation__bloks-info__btn btn-3">Оставить заявку</button>
             </div>
             <div class="variation__bloks-info">
                <img src="./img/image 16.png" alt="" class="variation__bloks-info__img">
                <p class="variation__bloks-info__text">Пластик НПВх<br>125мм<br>(резьба)<br>до 3-х м3/час</p>
                <p class="variation__bloks-info__title">Крупногабаритное бурение</p>
-               <span class="variation__bloks-info__price">2700</span>
+               <span class="variation__bloks-info__price"><b>2700</b></span>
                <p class="variation__bloks-info__title">Мелкогабаритное бурение</p>
-               <span class="variation__bloks-info__price">2800</span>
+               <span class="variation__bloks-info__price"><b>2800</b></span>
                <button class="variation__bloks-info__btn btn-3">Оставить заявку</button>
             </div>
          </div>

@@ -1,0 +1,111 @@
+@import "./config.scss";
+
+.consr__info{
+   margin-top: 50px;
+   width: 1277px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+   position: relative;
+}
+
+.read-more-state {
+   display: none;
+}
+
+.read-more-target {
+   opacity: 0;
+   max-height: 0;
+   font-size: 0;
+   transition: .25s ease;
+}
+.read-more-state:checked ~ .consr__info .read-more-target {
+   opacity: 1;
+   font-size: 24px;
+   max-height: 999px;
+}
+.read-more-state ~ .read-more-trigger::before {
+   content: 'читать дальше';
+   
+
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+   content: 'скрыть';
+}
+
+.read-more-trigger {
+   cursor: pointer;
+   display: inline;
+   color: $color-two;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+}
+
+.constr__bloks{
+   font-family: $font-one;
+   margin-top: 105px;
+   margin-bottom: 200px;
+   display: flex;
+   justify-content: space-between;
+   .constr__bloks-all{
+      width: 546px;
+      background-color: $color-seven;
+      border-radius: 15px;
+      .constr__bloks-all__title {
+         font-size: 25px;
+         margin-left: 40px;
+         margin-top: 45px;
+      }
+      .constr__bloks-all__text {
+         font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 25px;
+            margin-left: 40px;
+      }
+      .constr__bloks-all__info {
+         display: block;
+         margin-top: 25px;
+         margin-left: 40px;
+         font-style: normal;
+         font-size: 18px;
+         line-height: 21px;
+      }
+      .constr__bloks-all__list {
+         margin-left: 40px;
+         .constr__bloks-all__list-type {
+            margin-left: 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 25px;
+         }
+      }
+      .constr__bloks-all__price {
+         margin-top: 45px;
+         display: block;
+         margin-left: 40px;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 25px;
+         line-height: 29px;
+      }
+      .constr__bloks-all__btn {
+         width: 215px;
+         height: 62px;
+         margin-top: 53px;
+         margin-left: 166px;
+         margin-bottom: 45px;
+      }
+      .more {
+         margin-top: 32px;
+      }
+   }
+
+}

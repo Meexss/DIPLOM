@@ -1,0 +1,47 @@
+@import "./config.scss";
+
+
+.information {
+   font-family: $font-one;
+   margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   .information__img-men{
+      width: 570px;
+      height: 625px;
+      margin-top: 33px;
+   }
+   .information__blok{
+      margin-left: 70px;
+      .information__blok-title {
+         padding: 75px 60px 74px 86px;
+         width: 840px;
+         border-radius: 15px;
+         color: $color-four;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 25px;
+         line-height: 35px;
+         background-color: $color-one;
+         position: relative;
+         &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: $color-one;
+            transform: rotate(45deg);
+            top: 410px;
+            left: -17px;
+            border-radius: 9px;
+         }
+      }
+      .information__blok-btn {
+         margin-top: 24px;
+         width: 253px;
+         height: 65px;
+         margin-left: 293px;
+      }
+   }
+}

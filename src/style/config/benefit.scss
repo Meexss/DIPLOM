@@ -1,0 +1,109 @@
+@import "./config.scss";
+
+.benefit {
+   margin-top: 200px;
+   text-align: center;
+
+   .benefit__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 59px;
+   }
+   .benefit__blok {
+      margin-top: 240px;
+      display: flex;
+      justify-content: space-between;
+      .benefit__blok-info {
+         width: 546px;
+         position: relative;
+         .benefit__blok-info__photo{
+            position: absolute;
+            width: 254px;
+            height: 176px;
+            border-radius: 15px;
+            background-color: $color-two;
+            top:-107px;
+            left: 150px;
+            .benefit__blok-info__img {
+               margin-top: 34px;
+         }
+            .correct {
+               margin-top: 29px;
+         }
+            }
+      }
+      .benefit__blok-info__secondary {
+            background-color: $colot-eight;
+            border-top: 5px solid #E9B145;
+            border-radius: 0px 0px 15px 15px;
+            .benefit__blok-info__secondary-title{
+               font-style: normal;
+               font-weight: 700;
+               font-size: 32px;
+               line-height: 38px;
+               margin-top: 99px;
+            }
+            .benefit__blok-info__secondary-text {
+               display: block;
+               font-style: normal;
+               font-weight: 400;
+               font-size: 24px;
+               line-height: 28px;
+               margin-top: 15px;
+               padding-bottom: 37px;
+            }
+         }
+      }
+      .benefit__list-blok {
+         margin-top: 200px;
+         width: 1418px;
+         text-align: start;
+         margin-left: 150px;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 30px;
+         .benefit__list-blok__text {
+            margin-bottom: 40px;
+         }
+         .benefit__list-blok__list {
+            margin-left: 35px;
+         }
+      }
+   }
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-target {
+  opacity: 1;
+  font-size: 24px;
+  max-height: 999px;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'читать больше';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'скрыть';
+}
+
+.read-more-trigger {
+   cursor: pointer;
+   display: inline;
+   color: $color-two;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+}

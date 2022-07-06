@@ -1,0 +1,108 @@
+@import "./config.scss";
+
+header, main, footer {
+   font-family: $font-one;
+   width: $width-blok;
+   z-index: 10;
+
+   margin-left: 100px;
+
+   .head {
+      margin-top: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+
+      &:after {
+         content: "";
+         display: block;
+         position: absolute;
+         border-radius: 50%;
+         width: 1066px;
+         height: 1027px;
+         background-color: $color-seven;
+         z-index: -11;
+         right: -610px;
+         top:-252px;
+      }
+      .head__logo {
+         width: 308px;
+         height: 106px;
+      }
+      .head__list {
+         list-style: none;
+         display: flex;
+         
+         .head__list-type {
+            padding-left: 12px;
+         }
+      }
+      .head__info {
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 21px;
+      }
+      .head__tel {
+         font-style: normal;
+         font-weight: 600;
+         font-size: 25px;
+         line-height: 29px;
+         list-style: none;
+         .head__tel_link{
+            margin-bottom: 9px;
+         }
+         .head__tel-number {
+            text-decoration:none;
+            color: $color-three;
+         }
+         
+      }
+      .head__btn {
+         width: 253px;
+         height: 65px;
+         margin-right: 50px;
+      }
+      }
+   .midle {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 63px;
+      .midle__left {
+         width: 871px;
+         margin-top: 87px;
+
+         .midle__left-title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 70px;
+            line-height: 82px;
+            
+         }
+         .midle__left-blok {
+            display: flex;
+            justify-content: center;
+            margin-top: 73px;
+            align-items: center;
+            .midle__left-blok__img img{
+               height: 72px;
+               width: 72px;
+            }
+            .midle__left-blok__text {
+               margin-left: 38px;
+            }
+         }
+      .midle_left-btn {
+         margin-top: 72px;
+         width: 399px;
+         height: 82px;
+      }
+      }  
+   }
+   .midle__right-img {
+      width: 564px;
+      height: 668px;
+   }
+}
+

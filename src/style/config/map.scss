@@ -1,0 +1,10 @@
+@import "./config.scss";
+
+.map{
+   width: 1720px;
+   margin-left: 100px;
+   text-align: center;
+   .map__text{
+      margin-top: 100px;
+   }
+}
