@@ -1,0 +1,56 @@
+@import "./config.scss";
+
+.area__blok-color{
+   background-color: $color-one;
+   .area__blok-size {
+      margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
+   }
+}
+
+.area__info{
+   text-align: center;
+   
+   color: $color-four;
+   .aria__info-title {
+      padding-top: 97px;
+      font-size: 40px;
+   }
+   .aria__info-list__flex {
+      display: flex;
+      text-align: start;
+      justify-content: space-between;
+      .aria__info-list {
+         list-style: none;
+         margin-top: 50px;
+         margin-bottom: 88px;
+         .aria__infp-list__info {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 60px;
+            font-family: $font-one;
+         }
+         
+      }
+   }
+
+}
+.area__blok-text__size{
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
+.area__text-blok {
+   margin-top: 100px;
+   margin-left: 148px;
+   width: 1426px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 30px;
+   font-family: $font-one;
+}
+}

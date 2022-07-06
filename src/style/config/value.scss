@@ -6,6 +6,11 @@
    background-size: 100%;
    background-position: center;
    padding-bottom: 99px;
+   .value__block{
+      margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
    .value__title {
       text-align: center;
       font-style: normal;
@@ -13,7 +18,7 @@
       font-size: 40px;
       line-height: 47px;
       font-style: $font-one;
-      margin-top: 94px;
+      padding-top: 94px;
       margin-bottom: 100px;
    }
    .value__blok {
@@ -21,12 +26,11 @@
       padding-bottom: 167px;
       text-align: center;
       background-color: $color-one;
-      width: 1720px;
       border-radius: 15px;
-      margin-left: 100px;
       display: flex;
       justify-content: center;
       .value__blok-calc {
+         border-radius: 15px;
          margin-top: 168px;
          background-color: $color-four;
          width: 840px;
@@ -62,6 +66,7 @@
          }
       }
    }
+}
 
 }
 

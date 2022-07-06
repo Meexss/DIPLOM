@@ -1,0 +1,91 @@
+@import "./config.scss";
+
+
+.price{
+   text-align: center;
+   margin-top: 200px;
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
+   .price__title {
+      margin-top: 200px;
+      font-size: 40px;
+   }
+   .price__bloks {
+      margin-bottom: 200px;
+      margin-top: 90px;
+      display: flex;
+      justify-content: space-between;
+      
+      .price__bloks-info{
+         position: relative;
+         border-radius: 0px 0px 15px 15px;
+         height: 952px;
+         width: 547px;
+         background-color: $color-seven;
+      
+      .price__bloks-info__img{
+         border-radius: 15px 15px 0px 0px;
+         width: 100%;
+         height: 475px;
+         object-fit: cover;
+      }
+      .price__bloks-info__title {
+         margin-top: 57px;
+         font-size: 32px;
+      }
+      .price__bloks-info__list {
+         text-align: start;
+         margin-top: 50px;
+         margin-left: 55px;
+         .price__bloks-info__list-text {
+            margin-left: 30px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            font-family: $font-one;
+         }
+      }
+      .price__bloks-info__price {
+         margin-top: 23px;
+         display: block;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 28px;
+         line-height: 33px;
+         font-family: $font-one;
+      }
+      .price__bloks-info__btn {
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         border-radius: 0px 0px 15px 15px;
+         height: 60px;
+      }
+   }
+   }
+   .price__more {
+      width: 1429px;
+      margin-left: 147px;
+      text-align: start;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      font-family: $font-one;
+   }
+   //.price__text{
+   //   width: 1429px;
+   //   margin-left: 147px;
+   //   text-align: start;
+   //   font-style: normal;
+   //   font-weight: 400;
+   //   font-size: 24px;
+   //   line-height: 30px;
+   //   font-family: $font-one;
+   //}
+
+}

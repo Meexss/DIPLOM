@@ -1,6 +1,10 @@
 @import "./config.scss";
 
 .benefit {
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
    margin-top: 200px;
    text-align: center;
 

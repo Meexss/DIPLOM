@@ -2,6 +2,10 @@
 
 
 .information {
+      margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
    font-family: $font-one;
    margin-top: 200px;
    display: flex;

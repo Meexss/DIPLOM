@@ -1,33 +1,48 @@
-.photo__bloks{
-   display: grid;
-   grid-template-columns: repeat(6, 1fr);
-   grid-template-rows: repeat(2, 21vh);
-   gap: 40px;
-   width: 1920px;
-   padding: 150px;
-}
+.photo{
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
+   text-align: center;
+   .photo__title{
+      
+      margin-top: 200px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+   }
+   .photo__bloks{
+      display: grid;
+      grid-template-columns: repeat(6, 253px);
+      grid-template-rows: repeat(2, 356px);
+      gap: 40px;
+      margin-top: 90px;
+      .one{
+         background-color: aqua;
+         grid-column: 1 / span 2;
+      }
+      .two {
+         grid-row: span 2;
+         grid-column: span 2;
+         background-color: bisque;
+      }
+      .five {
+         background-color: black;
+         grid-column: 1 / span 2;
 
-.one{
-   background-color: aqua;
-   grid-column: 1 / span 2;
-}
-
-.two {
-   grid-row: span 2;
-   background-color: bisque;
-}
-
-.five {
-   background-color: black;
-   grid-column: 1 / span 2;
-
-}
-
-.six {
-   grid-column: span 2;
-   background-color: green;
-}
-
-.three, .four {
-   background-color: grey;
+      }
+      .six {
+         grid-column: span 2;
+         background-color: green;
+      }
+      .three, .four {
+         background-color: grey;
+      }
+   }
+   .photo__btn {
+      margin-top: 90px;
+      width: 254px;
+      height: 56px;
+      margin-bottom: 200px;
+   }
 }
