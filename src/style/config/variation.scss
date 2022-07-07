@@ -2,9 +2,11 @@
 
 
 .variation{
-   width: 1720px;
-   margin-left: 100px;
-   text-align: center;
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
+      text-align: center;
    .variation__title{
       margin-top: 200px;
       font-style: normal;
@@ -22,9 +24,11 @@
       font-family: $font-one;
    }
    .variation__bloks {
+      width: 1720px;
       margin-top: 31px;
       display: flex;
       justify-content: space-between;
+      
       .variation__bloks-info{
          margin: 0 auto;
          width: 311px;

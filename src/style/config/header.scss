@@ -1,13 +1,17 @@
 @import "./config.scss";
 
-header, main, footer {
-   font-family: $font-one;
-   width: $width-blok;
-   z-index: 10;
+//header, main, footer {
+//   font-family: $font-one;
+//   width: $width-blok;
+//   z-index: 10;
 
-   margin-left: 100px;
+//   margin-left: 100px;
 
    .head {
+      margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
       margin-top: 44px;
       display: flex;
       align-items: center;
@@ -66,6 +70,10 @@ header, main, footer {
       }
       }
    .midle {
+      margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
       display: flex;
       justify-content: space-between;
       margin-top: 63px;
@@ -104,5 +112,5 @@ header, main, footer {
       width: 564px;
       height: 668px;
    }
-}
+
 

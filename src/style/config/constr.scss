@@ -1,4 +1,10 @@
 @import "./config.scss";
+.constr {
+   margin: $margin-blok-all;
+   width: $width-blok-all;
+   padding-left: $padding-blok-all;
+   padding-right: $padding-blok-all;
+}
 
 .consr__info{
    margin-top: 50px;

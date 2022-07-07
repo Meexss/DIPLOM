@@ -3657,3 +3657,6 @@ node_modules/@parcel/transformer-sass/LICENSE
 node_modules/@parcel/transformer-sass/package.json
 node_modules/@parcel/transformer-sass/lib/SassTransformer.js
 node_modules/@parcel/transformer-sass/src/SassTransformer.js
+.parcel-cache/6c400778456a0fd7
+.parcel-cache/data.mdb
+.parcel-cache/data.mdb

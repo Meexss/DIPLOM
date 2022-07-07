@@ -1,10 +1,27 @@
 @import "./config.scss";
 
 .map{
-   width: 1720px;
-   margin-left: 100px;
+   margin: $margin-blok-all;
+      width: $width-blok-all;
+      padding-left: $padding-blok-all;
+      padding-right: $padding-blok-all;
    text-align: center;
    .map__text{
       margin-top: 100px;
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      font-family: $font-one;
+   }
+   .map_title {
+      font-family: $font-one;
+      margin-top: 200px;
+      font-size: 40px;
+   }
+   .map_navigation {
+      margin-top: 90px;
+      margin-bottom: 200px;
    }
 }
