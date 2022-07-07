@@ -1015,11 +1015,16 @@ h3 {
   text-align: center;
   background-color: #164288;
   border-radius: 15px;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+  justify-content: center;
+>>>>>>> 46bb7f03156df142a8fb41c1f95c258d038102fc
   padding-bottom: 167px;
   display: flex;
 }
 
+<<<<<<< HEAD
 .value .value__block .value__blok .value__blok-form {
   width: 500px;
   text-align: start;
@@ -1107,6 +1112,15 @@ h3 {
   margin-right: 30px;
 }
 
+=======
+.value .value__block .value__blok .value__blok-calc {
+  width: 840px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 168px;
+}
+
+>>>>>>> 46bb7f03156df142a8fb41c1f95c258d038102fc
 .value .value__block .value__blok .value__blok-calc .value__blok-calc__title {
   border-bottom: 3px dashed #000;
   margin-top: 57px;
